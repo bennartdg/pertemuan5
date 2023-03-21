@@ -1,5 +1,5 @@
 <?php
-
+// Comment php
 include 'server/connection.php';
 
 $username = $_POST['user_name'];
