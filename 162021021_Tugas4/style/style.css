@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: url("../assets/topo.jpg");
+  background-color: #121212;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.center {
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  border: none;
+}
+
+table {
+  width: 450px;
+}
+
+/* table {
+  width: 500px;
+  height: 150px;
+}
+
+.img-td {
+  width: 500px;
+}
+*/
+
+th {
+  text-align: left;
+}
+
+th[scope="col"] {
+  text-align: center;
+}
+/*
+th[type="subject"] {
+  text-align: left;
+}
+
+td {
+  width: 300px;
+} */
+
+h1 {
+  font-size: 32px;
+}
+
+.welcome {
+  height: 50%;
+}
+
+.container-profile {
+  height: 230px;
+}
+
+.center h1 {
+  padding: 30 0;
+  text-align: center;
+}
+
+.center form {
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+form .text_field {
+  position: relative;
+  border-bottom: 2px solid white;
+  margin: 50px 0;
+}
+
+.text_field input {
+  width: 100%;
+  color: white;
+  padding: 0 5px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  background: none;
+  outline: none;
+}
+::-ms-reveal {
+  filter: invert(100%);
+}
+
+.text_field label {
+  position: absolute;
+  left: 5px;
+  transform: translateY(-100%);
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 18px;
+  border: 2px solid white;
+  background: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  transition: 0.5s;
+  border: none;
+}
+
+.btn-primary {
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-weight: bold;
+  border-radius: 25px;
+  font-size: 18px;
+  border: 2px solid white;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  color: black;
+  font-weight: bold;
+  background-color: white;
+  transition: 0.5s;
+  border: none;
+}
+
+.a-link {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+}
+
+.a-link:hover {
+  font-weight: bold;
+  color: #24a0ed;
+  text-decoration: underline;
+}
+
+.a-delete {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.a-delete:hover {
+  color: #24a0ed;
+  text-decoration: underline;
+}
+
+.under-button-login {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.under-button-register {
+  padding-top: 5px;
+  text-align: right;
+}
+
+.btn-cari {
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: #24a0ed;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-cari:hover {
+  color: black;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  height: 30px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.btn-cari-position {
+  position: absolute;
+  transform: translate(360%, -110%);
+}
